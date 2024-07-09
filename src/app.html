@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.3.2/dist/maplibre-gl.css' />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+
+		<title>Toronto Trees | School of Cities</title>
+		<meta name="description" content="Rendering 1.25 million Toronto trees in browser">
+		<meta name="author" content="Jeff Allen">
+
+		<meta property="og:title" content="Trees Toronto | School of Cities" />
+		<meta name="og:description" content="Rendering 1.25 million Toronto trees in browser" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://schoolofcities.github.io/trees-toronto/" />
+		<meta property="og:image" content="https://schoolofcities.github.io/trees-toronto/web-card.png" />
+		<meta property="og:locale" content="en_CA">
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="https://schoolofcities.github.io/trees-toronto/traffic-violations/" />
+		<meta name="twitter:creator" content="@UofTCities" />
+		<meta name="twitter:title" content="Trees Toronto | School of Cities" />
+		<meta name="twitter:description" content="Rendering 1.25 million Toronto trees in browser" />
+		<meta name="twitter:image" content="https://schoolofcities.github.io/trees-toronto/web-card.png" />
+	</head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XB09CWTEWB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-XB09CWTEWB');
+	</script>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
