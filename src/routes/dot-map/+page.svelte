@@ -53,7 +53,7 @@ onMount(() => {
 		map.addSource("trees", {
 			type: "vector",
 			url: "pmtiles://" + pmtilesTrees,
-			attribution: "<a href='https://github.com/felt/tippecanoe' target='_blank'>Tippecanoe</a> | <a href='https://github.com/protomaps/PMTiles' target='_blank'>PMtiles</a> | <a href='https://open.toronto.ca/dataset/topographic-mapping-physical-location-of-trees/' target='_blank'>City of Toronto</a> | <a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://schoolofcities.utoronto.ca/' target='_blank'>School of Cities</a>"
+			attribution: "<a href='https://github.com/felt/tippecanoe' target='_blank'>tippecanoe</a> | <a href='https://github.com/protomaps/PMTiles' target='_blank'>PMTiles</a> | <a href='https://open.toronto.ca/dataset/topographic-mapping-physical-location-of-trees/' target='_blank'>City of Toronto</a> | <a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://schoolofcities.utoronto.ca/' target='_blank'>School of Cities</a>"
 		});
 
 		map.addLayer({
@@ -125,7 +125,7 @@ onMount(() => {
 		})
 
 	})
-	
+
 })
 
 </script>
