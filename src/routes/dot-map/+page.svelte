@@ -131,7 +131,7 @@ onMount(() => {
 </script>
 
 <div id="top">
-	DOT MAP OF 1,249,667 TREES ACROSS TORONTO 🌲🌳🌲🏡🌳🌸🌲
+	DOT MAP OF 1,249,667 TREES ACROSS TORONTO 🌲🌳🌲🏡🌳🌸🌲 <a href="">README.md</a>
 </div>
 
 <div id="map">

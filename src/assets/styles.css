@@ -67,6 +67,11 @@ body {
 	border-bottom: solid 1px #0d534d7c;
 }
 
+a {
+	font-style: italic;
+	color: var(--brandDarkGreen);
+}
+
 #map {
 	height: calc(100vh - 16px);
 	width: 100vw;
