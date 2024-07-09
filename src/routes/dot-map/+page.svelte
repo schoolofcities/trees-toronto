@@ -83,9 +83,9 @@ onMount(() => {
 					['linear'],
 					['zoom'],
 					12,  
-					0.02,
+					0.01,
 					14,
-					0.08
+					0.04
 				]
 			}
 		})
@@ -110,7 +110,7 @@ onMount(() => {
 					10,  
 					1,
 					14,
-					2.5
+					2
 				],
 				"circle-opacity": [
 					'interpolate',
