@@ -47,6 +47,7 @@ onMount(() => {
 	map.addControl(new maplibregl.AttributionControl(), "bottom-right");
 
 	map.touchZoomRotate.disable();
+	map.doubleClickZoom.disable();
 
 	map.on("load", function () {
 
