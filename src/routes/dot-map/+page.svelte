@@ -131,7 +131,7 @@ onMount(() => {
 </script>
 
 <div id="top">
-	DOT MAP OF 1,249,667 TREES ACROSS TORONTO 🌲🌳🌲🏡🌳🌸🌲 <a href="">README.md</a>
+	DOT MAP OF 1,249,667 TREES ACROSS TORONTO 🌲🌳🌲🏡🌳🌸🌲 <a href="https://github.com/schoolofcities/trees-toronto" target="_blank">README.md</a>
 </div>
 
 <div id="map">
