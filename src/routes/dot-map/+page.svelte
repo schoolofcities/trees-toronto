@@ -54,7 +54,7 @@ onMount(() => {
 		map.addSource("trees", {
 			type: "vector",
 			url: "pmtiles://" + pmtilesTrees,
-			attribution: "<a href='https://github.com/felt/tippecanoe' target='_blank'>tippecanoe</a> | <a href='https://github.com/protomaps/PMTiles' target='_blank'>PMTiles</a> | <a href='https://open.toronto.ca/dataset/topographic-mapping-physical-location-of-trees/' target='_blank'>City of Toronto</a> | <a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://schoolofcities.utoronto.ca/' target='_blank'>School of Cities</a>"
+			attribution: "<a href='https://github.com/felt/tippecanoe' target='_blank'>tippecanoe</a> | <a href='https://github.com/protomaps/PMTiles' target='_blank'>PMTiles</a> | <a href='https://open.toronto.ca/dataset/topographic-mapping-physical-location-of-trees/' target='_blank'>City of Toronto</a> | <a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>, <a href='https://schoolofcities.utoronto.ca/' target='_blank'>School of Cities</a> | <a href='https://github.com/schoolofcities/trees-toronto' target='_blank'>README.md</a>"
 		});
 
 		map.addLayer({
@@ -100,8 +100,8 @@ onMount(() => {
 				"circle-color": [
 					'case',
                     ['==', ['get', 'i'], 1], '#0D534D',
-                    ['==', ['get', 'i'], 2], '#2c7748',
-                    ['==', ['get', 'i'], 3], '#2c7768',
+                    ['==', ['get', 'i'], 2], '#00A189',
+                    ['==', ['get', 'i'], 3], '#8DBF2E',
                     'white' 
 					],
 				'circle-radius': [
@@ -132,7 +132,7 @@ onMount(() => {
 </script>
 
 <div id="top">
-	DOT MAP OF 1,249,667 TREES ACROSS TORONTO 🌲🌳🌲🏡🌳🌸🌲 <a href="https://github.com/schoolofcities/trees-toronto" target="_blank">README.md</a>
+	DOT MAP OF 1,249,667 TREES ACROSS TORONTO 🌲🌳🌲🏡🌳🌸🌲 <a href='https://github.com/schoolofcities/trees-toronto' target='_blank'>click here for data + code</a> 
 </div>
 
 <div id="map">
