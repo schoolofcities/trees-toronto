@@ -13,21 +13,6 @@
 	src: url("trade-gothic/Trade Gothic LT Light.ttf");
 }
 
-@font-face {
-	font-family: RobotoRegular;
-	src: url("roboto/Roboto-Regular.ttf");
-}
-
-@font-face {
-	font-family: RobotoBold;
-	src: url("roboto/Roboto-Bold.ttf");
-}
-
-@font-face {
-	font-family: SourceSerif;
-	src: url("source-serif-pro/SourceSerifPro-Regular.otf");
-}
-
 
 :root {
 	font-family: -apple-system, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
